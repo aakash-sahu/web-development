@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		<title> My webpage </title>
+		<link rel="stylesheet" type="text/css" href = "style.css" />
+		<script>
+			function sayhello(x) {
+			document.write("Hello " +x + "<br>");
+			}
+		</script>
+		
+	</head>
+
+	<body>
+		<div id = "container">
+			<div id = "header">
+				<h1> Contains tables, </h1>
+			</div>
+			
+			<div id = "content">
+				
+	
+				<div id = "main">
+				<!--commment-->
+				<!--tables-->
+				<table> 
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Age</th>
+						</tr>
+					</thead>				
+					<tbody>
+						<tr>
+							<td>Aakash</td>
+							<td>aakash@gmail.com</td>
+							<td>35</td>
+						</tr>
+						<tr>
+							<td>alpha</td>
+							<td>alpha@gmail.com</td>
+							<td>23</td>
+						</tr>						
+					</tbody>
+				</table>
+				<br>
+				<hr>
+				<br>
+				
+				<!--Forms-->
+				<form action="process.php" method = "POST" > 
+					<label>First Name</label>
+					<input type="text" name="firstName" placeholder="Enter first name">
+					<label>Last Name</label>
+					<input type="text" name="lastName">
+					<label>Email</label>
+					<input type="email" name="email">
+					
+					<div>
+						<label>Message</label>
+						<textarea name="message"></textarea>
+					</div>					
+					<div>
+						<label>Gender</label>
+						<select name="gender"> 
+							<option name="male">Male</option>
+							<option name="Female">Female</option>
+							<option name="Other">Other</option>
+						</select>
+					</div>
+					
+					<div>
+						<label>Age</label>
+						<input type="number" name="age"> 
+
+					</div>
+					<div>
+						<label>Birthday:</label>
+						<input type="date" name="birthday"> 
+
+					</div>
+					<div>
+						<input type="submit" name="submit" value="Submit"> 
+
+					</div>					
+				</form>
+				<br>
+				<hr>
+				<!--button-->
+				<button>Click me</button> <!--javascript needed to add functionality for buttons-->
+				<!--Images-- done already in html1>
+				<!--Quotations-->
+				<blockquote cite = "http://wikipedia.org"> This text is a blockquote</blockquote>				
+				<p>The <abbr title="World wide Web"> WWW</abbr> is awesome</p>
+				<p><cite>javascript</cite> needed to add functionality for buttons</p>
+				</div>
+				
+				
+			</div>
+			
+			<div id = "footer">
+				Copyright &copy; 2019
+			</div>
+			
+
+			
+			
+			
+		</div>
+	</body>
+
+</html>

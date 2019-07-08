@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		<title> My webpage </title>
+		<link rel="stylesheet" type="text/css" href = "style.css" />
+		<script>
+			function sayhello(x) {
+			document.write("Hello " +x + "<br>");
+			}
+		</script>
+		
+	</head>
+
+	<body>
+		<div id = "container">
+			<div id = "header">
+				<h1> My website </h1>
+			</div>
+			
+			<div id = "content">
+				
+				<div id = "nav">
+					<h3>Navigation</h3>
+					<ul>
+						<li><a class="selected" href = "">About</a></li>
+						<li><a href = "HTML2.html">HTML2</a></li>
+						<li><a href = "blog.html">Blog</a></li>
+					</ul>	
+				</div>
+				
+				<div id = "main">
+				<!--commment-->
+					<h1> Home page </h1>
+					<p> Homer Davenport (1867–1912) was a political cartoonist and writer from the United States. He is known for drawings that satirized figures of the Gilded Age and Progressive Era, especially Ohio Senator Mark Hanna. Although Davenport had no formal art training, he became one of the highest paid political cartoonists in the world.</p>
+					
+					<p>... that <a href = "https://en.wikipedia.org/wiki/Washington_State_Route_142" target="_blank">Washington State Route 142</a> once included the largest prestressed concrete bridges in the state?</p>
+					<br>
+						<script>
+						//var name = "Alpha";
+						//document.write(name);
+						for(i=0; i<10;i++) {
+							document.write("Value of i is " +i + "<br>"); 
+							sayhello(i)
+							//if (i%2 ==0) {
+							//alert(i)}
+							}
+							
+						</script>
+					
+					<p>The bee-eaters are a group of near passerine birds in the family Meropidae, containing three genera and twenty-seven species. Most species are found in Africa and Asia, with a few in southern Europe, Australia and New Guinea. They are characterised by richly coloured plumage, slender bodies and usually elongated central tail feathers.</p>
+					
+					<a href = "https://en.wikipedia.org/wiki/Bee-eater"> 				
+							<img src= "images/birds.jpg" width = "200px" alt = "birds-image" />
+					</a>
+					<br> 
+						<a href = "https://en.wikipedia.org/wiki/Bee-eater"> Click here!					
+						</a> 
+					</br>
+					 
+					
+				</div>
+			</div>
+			
+			<div id = "footer">
+				Copyright &copy; 2019
+			</div>
+			
+			
+		</div>
+	</body>
+
+</html>

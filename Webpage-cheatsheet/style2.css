@@ -1,0 +1,205 @@
+body {
+    background-color:#f4f4f4;
+    color: #555555;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: bold;
+    /*same as above*/
+    font: normal 14px 'Courier New', Courier, monospace;
+    line-height: 1.6em;
+    margin:0;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color:#000;
+
+}
+
+/*modifying the state of tag*/
+a:hover {
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+.container {
+    /* width:960px; */
+    width:80%;
+    margin:auto;
+}
+
+.clr {
+    clear:both;
+}
+
+
+.button{
+    background-color: #333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    margin-top:10px;
+    width:auto;
+
+}
+
+.button:hover{
+    background:red;
+    color: #fff;
+}
+
+.box-1 {
+    background-color: #333;
+    color: #fff;
+    border-right: 5px red dashed;
+    
+    border-width: 2px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    border: 5px red solid;
+
+    padding-top: 10px;
+    padding:20px;
+    
+    margin-top:20px;
+    margin: 20px 0;
+}
+
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 2000;
+    font-size: 2em;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 2px dotted #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.categories {
+    border:1px #ccc solid;
+    padding: 10px;
+    border-radius:15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding:10px;
+    list-style: square;
+    list-style: None;
+}
+
+.categories li {
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url(images/check.jpg)
+}
+
+.my-form{
+    padding:20px;
+    font-family: Arial;
+}
+
+.my-form .form-group{
+    padding-bottom: 10px;
+}
+
+.my-form label{
+    display:block;
+}
+
+/* targetting only specific types of areas by using square brackets*/
+.my-form input[type="text"],.my-form input[type="email"], .my-form textarea{
+    padding:10px;
+    width:100%;
+}
+
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    margin-top:10px;
+    width:auto;
+
+}
+
+.block {
+    float:left;
+    width:33.3%;
+    border:1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float:left;
+    width:70%;
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: #333;
+    color:#fff;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border: 1px solid #000;
+    margin-top:30px;
+    position: relative;
+    background-image: url('images/bgimage.jpg');
+    background-position: 100px 200px;
+    background-repeat: none;
+    background-position: center center;
+
+}
+.p-box h1{
+    position:absolute;
+    top:400px;
+}
+
+.p-box h2 {
+    position: absolute;
+    top:40px;
+}
+
+.fix-me{
+    position:fixed;
+    top: 400px;
+}
+
+/* pseudo -classes*/
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background:blue;
+}
+
+.my-list li:nth-child(5){
+    background: black;
+}
+
+.my-list li:nth-child(even){
+    background:yellow;
+}
